@@ -118,6 +118,7 @@ void Selection(population* parents, const int n, int* S) {
 void CrossOver(int** W, int n, population* parents, int* S) {
 	int s1 = S[0];
 	int s2 = S[1];
+
 	population* p1 = &parents[s1];
 	population* p2 = &parents[s2];
 
